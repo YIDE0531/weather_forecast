@@ -1,0 +1,33 @@
+{
+  "@@locale": "en",
+  "appTitle": "Weather Forecast",
+  "searchHint": "City name, or leave empty for all regions",
+  "searchButton": "Search",
+  "initialPrompt": "Enter a city name or search all regions",
+  "initialExample": "e.g. Taipei City — or leave empty to see all",
+  "loading": "Loading...",
+  "forecastSubtitle": "36-hour weather forecast",
+  "allRegionsTitle": "All Taiwan — 36-hour Forecast",
+  "precipitation": "Rain {percent}%",
+  "@precipitation": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "retry": "Retry",
+  "errorNetwork": "Network connection error\nPlease check your internet and try again",
+  "errorLocationNotFound": "City \"{cityName}\" not found\nPlease check the city name\n(e.g. Taipei City, New Taipei City)",
+  "@errorLocationNotFound": {
+    "placeholders": {
+      "cityName": { "type": "String" }
+    }
+  },
+  "errorServer": "Server error (HTTP {statusCode})\nPlease try again later",
+  "@errorServer": {
+    "placeholders": {
+      "statusCode": { "type": "int" }
+    }
+  },
+  "errorAuth": "API authentication failed\nPlease check your API key",
+  "errorParse": "Data format error\nUnable to parse weather data"
+}

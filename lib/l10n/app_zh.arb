@@ -1,0 +1,33 @@
+{
+  "@@locale": "zh",
+  "appTitle": "天氣預報",
+  "searchHint": "輸入縣市名稱，留空顯示全部地區",
+  "searchButton": "確認",
+  "initialPrompt": "輸入縣市名稱，或留空查詢全台天氣",
+  "initialExample": "例如：臺北市 — 或直接點確認查看全部地區",
+  "loading": "資料載入中...",
+  "forecastSubtitle": "未來 36 小時天氣預報",
+  "allRegionsTitle": "全台天氣預報（36 小時）",
+  "precipitation": "降雨 {percent}%",
+  "@precipitation": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "retry": "重試",
+  "errorNetwork": "網路連線問題\n請確認網路狀態後重試",
+  "errorLocationNotFound": "找不到「{cityName}」的天氣資料\n請確認縣市名稱是否正確\n（例如：臺北市、新北市、高雄市）",
+  "@errorLocationNotFound": {
+    "placeholders": {
+      "cityName": { "type": "String" }
+    }
+  },
+  "errorServer": "伺服器錯誤 (HTTP {statusCode})\n請稍後再試",
+  "@errorServer": {
+    "placeholders": {
+      "statusCode": { "type": "int" }
+    }
+  },
+  "errorAuth": "API 驗證失敗\n請確認 API 金鑰是否正確",
+  "errorParse": "資料格式錯誤\n無法解析天氣資料"
+}
